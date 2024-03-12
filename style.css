@@ -193,7 +193,7 @@ section .title::after {
 /* ========== home section styling ========== */
 .home {
   display: flex;
-  background: url('personal-portfolio-img/images/bg-img.jpg') no-repeat center;
+  background: url('bg-img.jpg') no-repeat center;
   height: 100vh;
   color: #fff;
   min-height: 500px;
@@ -215,16 +215,16 @@ section .title::after {
 
 @keyframes animateBackground {
   0%, 25% {
-    background-image: url('personal-portfolio-img/images/bg-img\ 2.jpg');
+    background-image: url('bg-img\ 2.jpg');
   }
   30%, 50% {
-    background-image: url('personal-portfolio-img/images/bg-img.jpg');
+    background-image: url('bg-img.jpg');
   }
   60%, 75% {
-    background-image: url('personal-portfolio-img/images/bg-img\ 2.jpg');
+    background-image: url('bg-img\ 2.jpg');
   }
   80%, 100% {
-    background-image: url('personal-portfolio-img/images/bg-img.jpg');
+    background-image: url('bg-img.jpg');
   }
 }
 
